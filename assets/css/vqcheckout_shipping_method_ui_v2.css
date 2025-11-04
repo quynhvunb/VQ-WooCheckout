@@ -1,0 +1,313 @@
+/**
+ * VQ Checkout - Shipping Method UI V2 Styles (devvn pattern)
+ */
+
+/* Ward Rates Table */
+.vq-ward-rates-wrapper {
+    margin-top: 10px;
+}
+
+.vq-ward-rates-table {
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.vq-ward-rates-table th,
+.vq-ward-rates-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.vq-ward-rates-table thead th {
+    background: #f7f7f7;
+    font-weight: 600;
+}
+
+.vq-ward-rates-table tbody tr:hover {
+    background: #f9f9f9;
+}
+
+/* Check column */
+.vq-ward-rates-table .check-column {
+    width: 30px;
+    text-align: center;
+}
+
+/* Sort column */
+.vq-ward-rates-table .vq-sort-column {
+    width: 50px;
+    text-align: center;
+    cursor: move;
+}
+
+.vq-sort-handle {
+    color: #a0a5aa;
+    cursor: move;
+    font-size: 20px;
+}
+
+.vq-sort-handle:hover {
+    color: #0073aa;
+}
+
+/* Sortable placeholder */
+.vq-sort-placeholder {
+    background: #f0f6fc;
+    border: 2px dashed #0073aa;
+    height: 50px;
+}
+
+/* Cost cell */
+.vq-cost-cell {
+    min-width: 300px;
+}
+
+.vq-cost-inputs {
+    margin-bottom: 10px;
+}
+
+.vq-rate-cost {
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Conditions toggle */
+.vq-conditions-toggle {
+    margin-top: 8px;
+}
+
+.vq-conditions-toggle label {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* Conditions table (nested) */
+.vq-conditions-table {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.vq-conditions-table table {
+    margin: 0;
+    background: #fff;
+}
+
+.vq-conditions-table th {
+    background: #f1f1f1;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.vq-conditions-table td {
+    padding: 5px;
+}
+
+.vq-conditions-table input[type="number"] {
+    width: 100px;
+}
+
+.vq-conditions-table .button-small {
+    padding: 2px 8px;
+    font-size: 11px;
+    height: auto;
+    line-height: 1.4;
+}
+
+/* No shipping option */
+.vq-no-shipping-option {
+    margin-top: 8px;
+}
+
+.vq-no-shipping-option label {
+    font-size: 13px;
+    cursor: pointer;
+    color: #d63638;
+}
+
+/* Title input */
+.vq-rate-title {
+    width: 100%;
+    max-width: 250px;
+}
+
+/* Global conditions section */
+.vq-condition-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.vq-condition-section > label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.vq-condition-section input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.vq-price-condition-table,
+.vq-weight-condition-table {
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.vq-condition-rows tr {
+    background: #fff;
+}
+
+.vq-condition-rows td {
+    padding: 8px;
+}
+
+.vq-condition-rows input[type="number"] {
+    width: 150px;
+}
+
+/* Buttons */
+.vq-add-ward-rate,
+.vq-remove-selected {
+    margin-right: 10px;
+}
+
+.vq-add-condition,
+.vq-add-price-condition {
+    font-size: 12px;
+}
+
+/* Select2 overrides for ward selection */
+.vq-ward-select + .select2-container {
+    min-width: 300px;
+}
+
+.vq-ward-select + .select2-container .select2-selection--multiple {
+    min-height: 40px;
+}
+
+.vq-ward-select + .select2-container .select2-selection__choice {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 3px 8px;
+    margin: 3px;
+}
+
+.vq-ward-select + .select2-container .select2-selection__choice__remove {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.vq-ward-select + .select2-container .select2-selection__choice__remove:hover {
+    color: #d63638;
+}
+
+/* Notice for missing provinces */
+.vq-ward-rates-wrapper .notice {
+    margin: 10px 0;
+}
+
+/* Footer buttons */
+.vq-ward-rates-table tfoot th {
+    background: #f9f9f9;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .vq-ward-rates-table {
+        font-size: 13px;
+    }
+
+    .vq-ward-rates-table th,
+    .vq-ward-rates-table td {
+        padding: 6px;
+    }
+
+    .vq-cost-cell {
+        min-width: 200px;
+    }
+
+    .vq-rate-cost,
+    .vq-rate-title {
+        max-width: 100%;
+    }
+
+    .vq-conditions-table input[type="number"] {
+        width: 80px;
+    }
+}
+
+/* Empty state */
+.vq-ward-rates-body:empty::after {
+    content: "Chưa có xã/phường nào. Click 'Thêm xã/phường' để bắt đầu.";
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+}
+
+/* Loading indicator */
+.vq-ward-rates-wrapper.vq-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.vq-ward-rates-wrapper.vq-loading::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #0073aa;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: vq-spin 0.6s linear infinite;
+}
+
+@keyframes vq-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Tooltips */
+.vq-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.vq-tooltip .vq-tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+}
+
+.vq-tooltip:hover .vq-tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

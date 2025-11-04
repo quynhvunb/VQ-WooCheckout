@@ -1,0 +1,98 @@
+/**
+ * VQ Checkout - Global Admin CSS (File 07) - UPDATED
+ * Styles for the plugin's settings page (JS Tabs) and general admin enhancements.
+ */
+
+/* Settings Page Structure & JS Tabs */
+.vqcheckout-settings-wrap .nav-tab-wrapper {
+    margin-bottom: 0;
+}
+
+/* Wrapper for the tab content area */
+.vq-tabs-content-wrapper {
+    background: #fff;
+    padding: 10px 20px 20px;
+    margin-top: 0;
+    border: 1px solid #c3c4c7;
+    border-top: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+/* Hide all tab content by default - use clip method to preserve form inputs while hiding visually */
+.vq-tab-content {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    padding: 0 !important;
+    border: 0 !important;
+    margin: -1px !important;
+}
+
+/* Show the active tab content */
+.vq-tab-content.vq-tab-active {
+    position: static !important;
+    clip: auto !important;
+    clip-path: none !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    padding: inherit !important;
+    border: inherit !important;
+    margin: 0 !important;
+}
+
+/* Remove redundant styling from the form element itself */
+.vqcheckout-settings-form,
+.vqcheckout-tools-wrap {
+    background: none;
+    padding: 0;
+    margin-top: 0;
+    border: none;
+    box-shadow: none;
+}
+
+/* Submit button wrapper should always be visible by default */
+.vqcheckout-settings-form .vq-submit-button-wrapper {
+    display: block;
+    padding: 10px 0;
+}
+
+
+.vqcheckout-settings-form .form-table th,
+.vqcheckout-tools-wrap .form-table th {
+    width: 250px; /* Consistent width for labels */
+}
+
+/* Styling for section titles within settings tables */
+.vqcheckout-settings-form h3 {
+    font-size: 1.1em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Fix for H3 inside table rows (remove default padding) */
+.vqcheckout-settings-form tr td:has(h3) {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/* Admin Orders List Optimization (HPOS and Legacy) */
+/* Adjust column widths for better readability in the order list */
+.wp-list-table .column-vq_billing_phone {
+    width: 10%;
+}
+
+.wp-list-table .column-vq_location {
+    width: 18%;
+}

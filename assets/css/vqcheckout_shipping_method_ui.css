@@ -1,0 +1,136 @@
+/**
+ * VQ Checkout - Shipping Method Admin UI CSS (File 05) - UPDATED FOR COMPLEX UI
+ */
+
+/* Basic table structure and spacing */
+.vq-shipping-table {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.vq-shipping-table th,
+.vq-shipping-table td {
+    text-align: left;
+    padding: 10px 12px;
+    vertical-align: top; /* Align content to the top for complex cells */
+    border: 1px solid #e5e5e5;
+}
+
+.vq-shipping-table thead th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* Input field widths within the table */
+.vq-shipping-table input[type=number],
+.vq-shipping-table input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+}
+
+/* Specific column widths for Complex Ward Rates table */
+.vq-shipping-table-complex .vq-col-wards {
+    width: 30%;
+}
+.vq-shipping-table-complex .vq-col-cost {
+    width: 45%;
+}
+.vq-shipping-table-complex .vq-col-label {
+    width: 25%;
+    vertical-align: middle;
+}
+
+/* Ensure Select2/SelectWoo spans the full width */
+.vq-ward-select,
+.select2-container--default .select2-container {
+    width: 100% !important;
+}
+
+/* Loading indicator styling */
+.vq-loading-wards {
+    font-style: italic;
+    color: #777;
+    padding: 10px 0;
+}
+
+/* Styling for the remove button */
+.vq-remove-row {
+    color: #a00 !important;
+    text-decoration: none;
+}
+
+.vq-remove-row:hover {
+    color: #f00 !important;
+}
+
+/* Styling for the add button in the footer */
+.vq-shipping-table tfoot td {
+    border: none;
+    padding-top: 15px;
+    text-align: right;
+}
+
+/* NEW: Sortable Handle */
+.vq-col-sort {
+    cursor: move;
+    text-align: center;
+    vertical-align: middle;
+    color: #aaa;
+}
+.vq-col-sort .dashicons {
+    margin-top: 5px;
+}
+
+/* NEW: Complex Cell Structure (Cost & Conditions) */
+.vq-cost-conditions-cell {
+    padding-top: 15px;
+}
+
+.vq-no-shipping-label {
+    display: block;
+    color: #d63638;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.vq-base-cost-wrapper {
+    margin-bottom: 15px;
+}
+.vq-base-cost-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.vq-ward-conditions-sub-table-wrapper h4 {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #555;
+}
+
+/* NEW: Sub-Table Styling (Conditions within a row) */
+.vq-shipping-sub-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9em;
+    background-color: #f9f9f9;
+}
+
+.vq-shipping-sub-table th,
+.vq-shipping-sub-table td {
+    padding: 5px 8px;
+    border: 1px solid #e5e5e5;
+    vertical-align: middle;
+}
+
+.vq-shipping-sub-table thead th {
+    background-color: #f1f1f1;
+}
+
+.vq-shipping-sub-table tfoot td {
+    border: none;
+    padding-top: 5px;
+    text-align: right;
+}
