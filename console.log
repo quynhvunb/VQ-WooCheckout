@@ -1,0 +1,68 @@
+load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:5 JQMIGRATE: Migrate is installed, version 3.4.1
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:7 🚀 VQ Checkout: vqcheckout_shipping_method_ui_v2.js LOADED
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:12 🚀 VQ Checkout: jQuery ready
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:596 📄 VQ Checkout: Document ready
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #1
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 200ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:635 👁️ VQ Checkout: Starting MutationObserver on LI
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #2
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 400ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #3
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 600ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #4
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 800ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #5
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 1000ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #6
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 1200ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #7
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 1400ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #8
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 1600ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #9
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:585 ⏳ VQ Checkout: Wrapper not found, retrying in 1800ms...
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:575 🔄 VQ Checkout: Initialization attempt #10
+vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:590 ❌ VQ Checkout: Failed to find wrapper after 10 attempts
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:590
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+setTimeout
+tryInit @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:586
+(anonymous) @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:597
+e @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+t @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+setTimeout
+(anonymous) @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+c @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+add @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+(anonymous) @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+(anonymous) @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:5
+e.<computed> @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:5
+then @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+ce.fn.ready @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+(anonymous) @ vqcheckout_shipping_method_ui_v2.js?ver=2.1.1:595
+e @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+t @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+setTimeout
+(anonymous) @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+c @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+fireWith @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+fire @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+c @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+fireWith @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+ready @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
+P @ load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,jquery-ui-core,jquery-ui-mouse,jquery-ui-sortable&ver=6.8.3:2
