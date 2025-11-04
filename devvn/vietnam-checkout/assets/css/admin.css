@@ -1,0 +1,86 @@
+.sp_in_order_loop_wrap {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 200px;
+    margin: 5px 0;
+}
+.devvn_table_style {
+    border-collapse: collapse;
+    border: 1px solid #bfbbbb;
+    width: 100%;
+}
+#the-list .devvn_table_style tr:last-child td, #the-list .devvn_table_style tr:last-child th {
+    border-bottom: 1px solid #bfbbbb !important;
+    box-shadow: none;
+}
+td.devvn_order_status.column-devvn_order_status span.select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+input#_shipping_phone {
+    width: 100%;
+    margin: 10px 0 0;
+}
+.status-wc-failed {
+    background: #ff00001f !important;
+}
+span.ajax_mess {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.devvn_ghtk_wrap td > button.button {
+    vertical-align: middle !important;
+    display: inline-block !important;
+    float: none !important;
+}
+span.new_label {
+    font-size: 12px;
+    background: red;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 15px;
+}
+.devvn_ghtk_wrap input[type="text"],
+.devvn_ghtk_wrap input[type="password"],
+.devvn_admin_wrap input[type="text"],
+.devvn_admin_wrap input[type="password"],
+.devvn_admin_wrap textarea{
+    width: 100%;
+    max-width: 500px;
+}
+.devvn_ghtk_wrap textarea,
+.devvn_admin_wrap textarea{
+    height: 150px;
+}
+.note_admin {
+    background: #ff000036;
+    border: 1px dashed red;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 23px;
+    border-radius: 5px;
+    max-width: 780px;
+}
+.note_small {
+    font-size: 14px;
+    color: red;
+}
+.devvn_order_title p {
+    margin-bottom: 5px !important;
+}
+.select2-container--open {
+    z-index: 999999999 !important;
+}
+
+span.devvn_require {
+    color: red;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+    margin: 0 0 0 5px;
+}
+
+.devvn_admin_wrap span.spinner {
+    float: none;
+}
